@@ -1,9 +1,8 @@
-﻿using AbstractFactoryPattern.HeroBlock;
+﻿using AbstractFactoryPattern.Interfaces;
 using AbstractFactoryPattern.MovementBlock;
 using AbstractFactoryPattern.WeaponBlock;
-using System;
 
-namespace AbstractFactoryPattern.Interfaces
+namespace AbstractFactoryPattern.HeroBlock
 {
     class VoinFactory : HeroFactory
     {

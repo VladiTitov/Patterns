@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AbstractFactoryPattern.HeroBlock;
+using System;
 
 namespace AbstractFactoryPattern
 {
@@ -6,7 +7,15 @@ namespace AbstractFactoryPattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Hero elf = new Hero(new ElfFactory());
+            elf.Hit();
+            elf.Run();
+
+            Hero voin = new Hero(new VoinFactory());
+            voin.Hit();
+            voin.Run();
+
+            Console.WriteLine();
         }
     }
 }

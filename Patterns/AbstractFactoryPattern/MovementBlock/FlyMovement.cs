@@ -5,6 +5,6 @@ namespace AbstractFactoryPattern.MovementBlock
 {
     class FlyMovement : Movement
     {
-        public override void Move() => Console.WriteLine("Бежим");
+        public override void Move() => Console.WriteLine("Летим");
     }
 }
