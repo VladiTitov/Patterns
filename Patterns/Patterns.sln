@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "AdapterPa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgePattern", "BridgePattern\BridgePattern.csproj", "{077CC6C6-0950-4E10-B6B9-67577566625D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositePattern", "CompositePattern\CompositePattern.csproj", "{D5DB98F5-8802-45C2-BA20-9E91853528FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{077CC6C6-0950-4E10-B6B9-67577566625D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{077CC6C6-0950-4E10-B6B9-67577566625D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{077CC6C6-0950-4E10-B6B9-67577566625D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5DB98F5-8802-45C2-BA20-9E91853528FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5DB98F5-8802-45C2-BA20-9E91853528FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5DB98F5-8802-45C2-BA20-9E91853528FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5DB98F5-8802-45C2-BA20-9E91853528FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
